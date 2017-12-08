@@ -1,18 +1,18 @@
 snippet	d1
 alias	d1
-    d1 \$ s "[${1}]" n (${2})
+    d1 \$ s "[${1}]" # n
 
 snippet	d2
 alias	d2
-    d2 \$ s "${1}" n ${2}
+    d2 \$ s "${1}" # n
 
 snippet	d3
 alias	d3
-    d3 \$ s "${1}" n ${2}
+    d3 \$ s "${1}" # n
 
 snippet every
 alias ev
-    every ${1} (${2}) \$
+    every ${1} () \$
   
 snippet slow
 alias sl
@@ -44,7 +44,7 @@ alias pa
     
 snippet cat
 alias ca
-    slowcat [${1}, /n ${2}]
+    slowcat [${1}, /n ]
     
 snippet scale
 alias sc
@@ -60,7 +60,7 @@ alias so
     
 snippet stack
 alias st
-    stack [${1}, /n${2}, \n ${3}]
+    stack [${1}, /, \n ]
     
 snippet cut
 alias cu
